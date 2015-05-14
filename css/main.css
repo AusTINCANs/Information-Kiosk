@@ -56,17 +56,27 @@ nav ul a li:hover, nav ul a li:active {
 div.post-image {
     width:100%;
     height:300px;
-    background: url(../media/sample.jpeg) no-repeat center center; 
+    background: url(../media/canman.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 2em 0;
 }
+div.small-image {
+    width:100%;
+    height:300px;
+    background: url(../media/canman.png) no-repeat center center; 
+    -webkit-background-size: auto 300;
+    -moz-background-size: auto 300;
+    -o-background-size: auto 300;
+    background-size: auto 300;
+    margin: 2em 0;
+}
 div.para-image {
     width:100%;
     height:300px;
-    background: url(../media/sample.jpeg) no-repeat center center fixed; 
+    background: url(../media/canman.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -188,7 +198,10 @@ div.para-image {
     margin:0 20% 0 30%;
     width:50%;
 }
-
+.type-post p, .type-post h1 {
+    margin:0 20% 0 30%;
+    width:50%;
+}
 .type-post .entry-content {
   display: table-cell;
   text-align: left;
@@ -245,4 +258,8 @@ footer {
     margin:0 auto;
     margin-bottom:2%;
     text-align:center;
+}
+p img {
+   height:300px;
+   margin: 0 auto;
 }
